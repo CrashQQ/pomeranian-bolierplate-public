@@ -1,0 +1,70 @@
+.selectorsAndCascade div {
+  margin: 0 0 20px;
+}
+.selectorsAndCascade > div {
+  border: 1px solid black;
+  padding: 5x;
+}
+/* type / tag selector */
+input {
+  background-color: red;
+}
+/* class selector */
+
+.unikalna-klasa1 {
+  color: blue;
+}
+/* id selector */
+#drugi-div {
+  color: purple;
+}
+/* wartość class zawiera "klasa" */
+[class*='klasa'] {
+  color: green;
+}
+
+/* wartość class zaczyna się od "unikalna" */
+[class^='unikalna'] {
+  background-color: yellow;
+}
+
+/* wartość class kończy się na "klasa3" */
+[class$='klasa3'] {
+  background-color: orange;
+}
+
+/* span za spanem bez znaczenia kiedy */
+span ~ span {
+  color: red;
+}
+/*span za spanem od razu po */
+span + span {
+  background-color: blue;
+}
+
+[class^='unikalna']:hover {
+  background-color: black;
+}
+
+input:focus,
+a:focus {
+  background-color: green;
+}
+.selectorsAndCascade > div:first-child {
+  background-color: lightyellow;
+}
+.selectorsAndCascade > div:last-child {
+  background-color: red;
+}
+
+span::before {
+  content: '❤️';
+}
+
+span::after {
+  content: '💕';
+}
+
+div::first-line {
+  font-size: 32px;
+}
