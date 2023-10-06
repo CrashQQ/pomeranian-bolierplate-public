@@ -4,12 +4,13 @@ import { getParsedRouterDataList } from '../../router-data/parseRouterData';
 import { TextFundamentsRouterMetaData } from './TextFundaments/router-data';
 import { GoogleFontsRouterMetaData } from './GoogleFonts/router-data';
 import { CssAnimationsRouterMetaData } from './CssAnimations/router-data';
-
+import { ArrayRenderToTableMetaData } from './ArrayRenderToTable/router-data';
 export const blockRouterMetaData = [
   //*blockRouterMetaData121220231,
   //* SelectorsAndCascadeRouterMetaData,
   TextFundamentsRouterMetaData,
   GoogleFontsRouterMetaData,
   CssAnimationsRouterMetaData,
+  ArrayRenderToTableMetaData,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
