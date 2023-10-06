@@ -22,3 +22,28 @@ header .logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+.header-container {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.studentItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.header-menu {
+  display: flex;
+  gap: 1rem;
+  max-width: 20rem;
+  align-items: center;
+}
+
+.imieStudent {
+  font-weight: 600;
+}

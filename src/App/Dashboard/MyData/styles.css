@@ -10,7 +10,3 @@
 .mydata-dashboard p {
   margin: 0;
 }
-.dashboard {
-  display: flex;
-  justify-content: space-between;
-}
